@@ -33,5 +33,26 @@ This is a backend service developed using **Java** and **Spring Boot** that mana
   "assessmentCoveragePeriod": "Jan-Jun 2025",
   "assId": "AS123"
 }
+```
+**####📤 Output**
+Returns success message and stored data or list of results (in case of GET).
 
+**#####📦 Database**
+Table: assessment_results
 
+Uses JPA Entity to persist and query data.
+
+**#####🚀 Running the Project**
+Clone the repo
+
+**######Configure application.properties with your DB credentials**
+
+Run the project using Eclipse or:
+mvn spring-boot:run
+
+**#######Test API using Postman or Swagger**
+
+**🧑‍💻 Author**
+Kishore Periyasamy
+
+Developed during internship as part of backend module implementation using Java and Spring Boot.
