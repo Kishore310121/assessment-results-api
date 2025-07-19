@@ -34,23 +34,23 @@ This is a backend service developed using **Java** and **Spring Boot** that mana
   "assId": "AS123"
 }
 ```
-####📤 Output
+### 📤 Output
 Returns success message and stored data or list of results (in case of GET).
 
-#####📦 Database
+### 📦 Database
 Table: assessment_results
 
 Uses JPA Entity to persist and query data.
 
-##### 🚀 Running the Project
+### 🚀 Running the Project
 Clone the repo
 
-###### Configure application.properties with your DB credentials
+### Configure application.properties with your DB credentials
 
 Run the project using Eclipse or:
 mvn spring-boot:run
 
-###### Test API using Postman or Swagger
+### Test API using Postman or Swagger
 
 **🧑‍💻 Author**
 Kishore Periyasamy
